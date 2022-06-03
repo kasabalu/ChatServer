@@ -14,7 +14,7 @@ app.config['MYSQL_DB']= 'test'
 app.config["MYSQL_CURSORCLASS"]="DictCursor"
 
 #get this from vault
-app.config['MYSQL_PASSWORD']= 'BaluKasa123'
+app.config['MYSQL_PASSWORD']= 'xxx'
 mysql = MySQL(app)
 
 @app.route("/", methods=['GET', 'POST'])
